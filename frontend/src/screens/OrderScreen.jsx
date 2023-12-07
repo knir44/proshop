@@ -101,6 +101,8 @@ const OrderScreen = () => {
     refetch();
   };
 
+  console.log(order);
+
   return isLoading ? (
     <Loader />
   ) : error ? (
