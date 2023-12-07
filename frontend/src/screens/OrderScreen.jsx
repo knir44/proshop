@@ -61,10 +61,7 @@ const OrderScreen = () => {
   function onApprove(data, actions) {
     return actions.order.capture().then(async function (details) {
       try {
-        console.log('12 ', details);
-        console.log(`orderId = ${orderId}  details = ${details}`);
         await payOrder({ orderId, details }).unwrap();
-        console.log(`orderId2 = ${orderId}  details2 = ${details}`);
         refetch();
         toast.success('Order is paid');
       } catch (err) {
@@ -86,7 +83,6 @@ const OrderScreen = () => {
   }
 
   function createOrder(data, actions) {
-    console.log('LILO ', data);
     return actions.order
       .create({
         purchase_units: [
