@@ -63,10 +63,11 @@ const OrderScreen = () => {
       try {
         console.log(`orderId = ${orderId}  details = ${details}`);
         await payOrder({ orderId, details }).unwrap();
+        console.log(`orderId2 = ${orderId}  details2 = ${details}`);
         refetch();
         toast.success('Order is paid');
       } catch (err) {
-        toast.error('dor' || err?.data?.message || err.error);
+        toast.error(err?.data?.message || err.error);
       }
     });
   }
