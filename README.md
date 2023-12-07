@@ -1,43 +1,34 @@
-# ProShop eCommerce Platform (v2)
+# ProShop eCommerce Platform 
 
-> eCommerce platform built with the MERN stack & Redux.
-<img src="./frontend/public/images/screens.png">
+## Introduction
+A comprehensive MERN stack e-commerce platform, employing Redux Toolkit for streamlined state management. Users can seamlessly sign in, add items to their cart, create orders, and make secure PayPal payments. An integrated admin account facilitates efficient management of users, products, and orders, ensuring a robust and feature-rich shopping experience.
 
-This project is part of my [MERN Stack From Scratch | eCommerce Platform](https://www.traversymedia.com/mern-stack-from-scratch) course. It is a full-featured shopping cart with PayPal & credit/debit payments. See it in action at https://www.proshopdemo.dev
+## Key Learnings
+By developing this project, i have gained experience in the following areas:
 
-This is version 2.0 of the app, which uses Redux Toolkit. The first version can be found [here](https://proshopdemo.dev)
+####  MERN Stack Development:
+Building applications using MongoDB, Express.js, React, and Node.js.
 
-<!-- toc -->
+#### Redux Toolkit:
+Implementing state management efficiently with Redux Toolkit for a seamless user experience.
 
-- [Features](#features)
-- [Usage](#usage)
-  - [Env Variables](#env-variables)
-  - [Install Dependencies (frontend & backend)](#install-dependencies-frontend--backend)
-  - [Run](#run)
-- [Build & Deploy](#build--deploy)
-  - [Seed Database](#seed-database)
+#### E-commerce Functionality:
+Developing key e-commerce features such as user authentication, cart management, order creation, and payment integration with PayPal.
 
-* [Bug Fixes, corrections and code FAQ](#bug-fixes-corrections-and-code-faq)
-  - [BUG: Warnings on ProfileScreen](#bug-warnings-on-profilescreen)
-  - [BUG: Changing an uncontrolled input to be controlled](#bug-changing-an-uncontrolled-input-to-be-controlled)
-  - [BUG: All file types are allowed when updating product images](#bug-all-file-types-are-allowed-when-updating-product-images)
-  - [BUG: Throwing error from productControllers will not give a custom error response](#bug-throwing-error-from-productcontrollers-will-not-give-a-custom-error-response)
-    - [Original code](#original-code)
-  - [BUG: Bad responses not handled in the frontend](#bug-bad-responses-not-handled-in-the-frontend)
-    - [Example from PlaceOrderScreen.jsx](#example-from-placeorderscreenjsx)
-  - [BUG: After switching users, our new user gets the previous users cart](#bug-after-switching-users-our-new-user-gets-the-previous-users-cart)
-  - [BUG: Passing a string value to our `addDecimals` function](#bug-passing-a-string-value-to-our-adddecimals-function)
-  - [BUG: Token and Cookie expiration not handled in frontend](#bug-token-and-cookie-expiration-not-handled-in-frontend)
-  - [BUG: Calculation of prices as decimals gives odd results](#bug-calculation-of-prices-as-decimals-gives-odd-results)
-  - [FAQ: How do I use Vite instead of CRA?](#faq-how-do-i-use-vite-instead-of-cra)
-    - [Setting up the proxy](#setting-up-the-proxy)
-    - [Setting up linting](#setting-up-linting)
-    - [Vite outputs the build to /dist](#vite-outputs-the-build-to-dist)
-    - [Vite has a different script to run the dev server](#vite-has-a-different-script-to-run-the-dev-server)
-    - [A final note:](#a-final-note)
-  * [License](#license)
+#### Full-Stack Development:
+Working on both the frontend (React) and backend (Express.js and Node.js) to create a fully functional web application.
 
-<!-- tocstop -->
+#### User and Admin Management:
+Creating user authentication systems and an admin interface for managing users, products, and orders.
+
+#### Payment Integration:
+Integrating secure payment processing, specifically through PayPal.
+
+#### Project Organization:
+Structuring a large-scale project with various features and functionalities.
+
+#### Problem Solving:
+Addressing challenges and solving problems that arise during the development process.
 
 ## Features
 
