@@ -84,6 +84,7 @@ const OrderScreen = () => {
   }
 
   function createOrder(data, actions) {
+    console.log('LILO ', data);
     return actions.order
       .create({
         purchase_units: [
@@ -101,8 +102,6 @@ const OrderScreen = () => {
     await deliverOrder(orderId);
     refetch();
   };
-
-  console.log(order);
 
   return isLoading ? (
     <Loader />
