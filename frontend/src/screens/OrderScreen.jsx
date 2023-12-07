@@ -66,7 +66,7 @@ const OrderScreen = () => {
         refetch();
         toast.success('Order is paid');
       } catch (err) {
-        toast.error(err?.data?.message || err.error);
+        toast.error('dor' || err?.data?.message || err.error);
       }
     });
   }
